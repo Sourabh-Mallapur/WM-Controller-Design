@@ -70,3 +70,52 @@ Commands to run Simulation using Gtkwave (on Windows)
 | spin_op |output| Spinning operation |
 | coin_rtrn |output| Return the coin |
 | water_inlet |output| Water intake |
+
+## Synthesis using Cadence EDA Suite
+Synthesis done in Cadence genus Software 
+
+```
+genus -gui
+read_libs <path of .lib file>
+read_hdl <path of design file>
+```
+Opens Genus, reads the library file from the specified path which in this case is saed90nm_typ.lib
+the 90 nanometer typical library.
+Reads the Hdl Design file from the specified path.
+
+```
+elaborate
+```
+Elaborates the design in the tool, and can be viewed in the GUI by selecting
+Hier Cell > Schematic View(Module) > in New.
+
+### Adding contstrainsts
+```
+read_sdc <path of .sdc constraints file>
+syn_generic
+```
+Synthesizes the design to the G Tech cells (default cells for the Cadence Tool)
+
+```
+syn_map
+```
+maps the synthesized cells to the library specified earlier in read_libs command
+
+```
+syn_opt -incremental
+```
+Incrementally optimizes the synthesized design
+
+```
+report_timing > (path for .rpt file to save timing report)
+report_area > (path for .rpt file to save area report)
+report_power > (path for .rpt file to save power report)
+```
+Reports timing Time Borrowed, Uncertainty, Required Time, Launch Clock, Data Path and Slack.
+Reports area of the synthesized design in micro-meters-square
+Reports power in nano Watts (nW)
+
+```
+write_hdl > (path for .v file for netlist to be written)
+```
+Writes the netlist in HDL format in the path specified
