@@ -1,0 +1,266 @@
+$date
+	Tue Dec 26 09:03:15 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module washing_machine_tb $end
+$var wire 1 ! water_inlet $end
+$var wire 1 " wash_op $end
+$var wire 1 # wash_done $end
+$var wire 1 $ spin_op $end
+$var wire 1 % spin_done $end
+$var wire 1 & soak_op $end
+$var wire 1 ' soak_done $end
+$var wire 1 ( rinse_op $end
+$var wire 1 ) rinse_done $end
+$var wire 1 * ready_op $end
+$var wire 1 + idle_op $end
+$var wire 1 , coin_rtn $end
+$var reg 1 - cancel $end
+$var reg 1 . clk $end
+$var reg 1 / coin $end
+$var reg 1 0 lid $end
+$var reg 2 1 mode [1:0] $end
+$scope module uut $end
+$var wire 1 - cancel $end
+$var wire 1 . clk $end
+$var wire 1 / coin $end
+$var wire 1 , coin_rtn $end
+$var wire 1 0 lid $end
+$var wire 2 2 mode [1:0] $end
+$var wire 1 ! water_inlet $end
+$var wire 1 " wash_op $end
+$var wire 1 $ spin_op $end
+$var wire 1 & soak_op $end
+$var wire 1 ( rinse_op $end
+$var wire 1 * ready_op $end
+$var wire 1 + idle_op $end
+$var parameter 3 3 IDLE $end
+$var parameter 2 4 MODE1 $end
+$var parameter 2 5 MODE2 $end
+$var parameter 2 6 MODE3 $end
+$var parameter 2 7 NOSEL $end
+$var parameter 3 8 READY $end
+$var parameter 3 9 RINSE $end
+$var parameter 3 : SOAK $end
+$var parameter 3 ; SPIN $end
+$var parameter 3 < WASH $end
+$var reg 3 = r_next [2:0] $end
+$var reg 3 > r_reg [2:0] $end
+$var reg 3 ? rinse_Counter [2:0] $end
+$var reg 1 ) rinse_done $end
+$var reg 3 @ soak_Counter [2:0] $end
+$var reg 1 ' soak_done $end
+$var reg 3 A spin_Counter [2:0] $end
+$var reg 1 % spin_done $end
+$var reg 3 B wash_Counter [2:0] $end
+$var reg 1 # wash_done $end
+$var integer 32 C RINSE_TIME [31:0] $end
+$var integer 32 D SOAK_TIME [31:0] $end
+$var integer 32 E SPIN_TIME [31:0] $end
+$var integer 32 F WASH_TIME [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 <
+b101 ;
+b10 :
+b100 9
+b1 8
+b0 7
+b10 6
+b1 5
+b0 4
+b0 3
+$end
+#0
+$dumpvars
+bx F
+bx E
+bx D
+bx C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
+bx 2
+bx 1
+10
+0/
+0.
+0-
+0,
+1+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5000
+1.
+#10000
+b1 =
+0.
+b1 1
+b1 2
+1/
+00
+#15000
+b10 =
+b11 E
+b11 C
+b11 F
+b10 D
+0+
+1*
+b1 >
+1.
+#20000
+0.
+#25000
+1!
+0*
+1&
+b10 >
+1.
+#30000
+b1 @
+0.
+#35000
+1.
+#40000
+b11 =
+1'
+b10 @
+0.
+#45000
+0!
+0&
+1"
+b11 >
+1.
+#50000
+b1 B
+0.
+#55000
+1.
+#60000
+b10 B
+0.
+#65000
+1.
+#70000
+b100 =
+1#
+b11 B
+0.
+#75000
+1!
+0"
+1(
+b100 >
+1.
+#80000
+b1 ?
+0.
+#85000
+1.
+#90000
+b10 ?
+0.
+#95000
+1.
+#100000
+b101 =
+1)
+b11 ?
+0.
+#105000
+0!
+0(
+1$
+b101 >
+1.
+#110000
+b1 A
+0.
+#115000
+1.
+#120000
+b10 A
+0.
+#125000
+1.
+#130000
+b0 =
+1%
+b11 A
+0.
+#135000
+b1 =
+1+
+0$
+b0 >
+1.
+#140000
+0'
+0%
+0)
+0#
+b0 @
+b0 A
+b0 ?
+b0 B
+0.
+#145000
+b10 =
+0+
+1*
+b1 >
+1.
+#150000
+0.
+#155000
+1!
+0*
+1&
+b10 >
+1.
+#160000
+b1 @
+0.
+#165000
+1.
+#170000
+b11 =
+1'
+b10 @
+0.
+#175000
+0!
+0&
+1"
+b11 >
+1.
+#180000
+b1 B
+0.
+#185000
+1.
+#190000
+b10 B
+0.
