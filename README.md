@@ -31,17 +31,13 @@ To simulate the Verilog code, you can use a Verilog simulator such as . Follow t
 
 ## Interpretting Code
 | Signal name   |  Direction | Description |
-| -------- | ------- | --------------- |
-|clk input |1| Clock signal |
-|lid input 1 Machine door (lid) is open
-|Coin input 1 Start wash machine after coin insertion.
-|Cancel input 1 Cancels the washing
-process
-mode1/mode2/
-mode3
-input 1 Select Washing modes
-idle_op output 1 Do not perform any
-process
+| ------------- | ---------- | ----------- |
+| clk |input| Clock signal |
+| lid |input| Machine door (lid) is open |
+| Coin |input| Start wash machine after coin insertion |
+| Cancel |input| Cancels the washing process |
+| mode |input| Select Washing modes |
+| idle_op |output| Do not perform any process |
 ready_op output 1 Machine is ready to start
 the process
 soak_op output 1 Soaking operation
