@@ -27,7 +27,16 @@ The Washing Machine Controller module is implemented in Verilog and uses a finit
 - `testbench.v` : Testbench file.
 ## Simulation
 
-To simulate the Verilog code, you can use a Verilog simulator such as . Follow these steps:
+To simulate the Verilog code, you can use a Verilog simulator such as Xilinx Vivado or Icarus Verilog or any online EDA Simulator.
+
+### For Icarus Verilog 
+
+```
+> iverilog .\Controller.v .\testbench.v
+> vvp.exe .\a.out
+> gtkwave.exe .\dump.vcd
+```
+
 
 ## Interpretting Code
 | Signal name   |  Direction | Description |
