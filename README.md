@@ -11,6 +11,7 @@ This repository contains the Verilog implementation of a Washing Machine Control
 - [Verilog Files](#verilog-files)
 - [Simulation](#simulation)
 - [Interpretting Code](#interpretting-code)
+- [State Diagram](#state-diagram)
 ## Introduction
 
 The Washing Machine Controller module is implemented in Verilog and uses a finite state machine to control the various stages of a washing machine.
@@ -47,6 +48,9 @@ Commands to run Simulation using Gtkwave (on Windows)
 > vvp.exe .\a.out
 > gtkwave.exe .\dump.vcd
 ```
+
+## State Diagram 
+![alt text](https://github]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 ## Interpretting Code

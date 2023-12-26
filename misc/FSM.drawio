@@ -1,0 +1,233 @@
+<mxfile host="Electron" modified="2023-12-26T12:55:37.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="KtuyKK7foT7SVGo1dJh9" version="22.1.11" type="device">
+  <diagram name="Page-1" id="CLZvad2DPMyz8gGpgP7z">
+    <mxGraphModel dx="1035" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-1" value="SPIN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="170" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-2" value="IDLE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="70" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-3" value="READY" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="300" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-4" value="SOAK" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-5" value="RINSE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="420" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-6" value="WASH" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="630" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-13" value="&lt;span style=&quot;font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Lid =1, coin =1, cancel =0&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="150" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.044;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-2" target="BVnzcmubk8Lxvu2Zo6zp-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-3" target="BVnzcmubk8Lxvu2Zo6zp-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-17" value="&lt;span style=&quot;font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Lid =1, coin =1, cancel =0&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;mode = 1 or 2 or 3&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="380" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.988;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-4" target="BVnzcmubk8Lxvu2Zo6zp-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="240" />
+              <mxPoint x="670" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-2" target="BVnzcmubk8Lxvu2Zo6zp-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="210" />
+              <mxPoint x="10" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-23" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;others&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="20" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.033;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-3" target="BVnzcmubk8Lxvu2Zo6zp-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="270" />
+              <mxPoint x="300" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-25" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;else&lt;br&gt;ns = cs&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="260" y="255" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-27" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;else&lt;br&gt;ns = cs&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="540" y="160" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-28" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-4" target="BVnzcmubk8Lxvu2Zo6zp-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="140" />
+              <mxPoint x="620" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-29" value="Lid =1, coin =1, cancel =0&lt;br style=&quot;border-color: var(--border-color); font-size: 11px; text-align: center;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 11px; text-align: center;&quot;&gt;mode = 1 or 2 or 3, Soak_timer = 1&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="610" y="270" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-31" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;else&lt;br&gt;ns = cs&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="700" y="360" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.035;exitY=0.679;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-5" target="BVnzcmubk8Lxvu2Zo6zp-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-6" target="BVnzcmubk8Lxvu2Zo6zp-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="330" />
+              <mxPoint x="780" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-6" target="BVnzcmubk8Lxvu2Zo6zp-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="490" />
+              <mxPoint x="530" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-36" value="&lt;span style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center; float: none; display: inline !important;&quot;&gt;Lid =1, coin =1, cancel =0&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center; float: none; display: inline !important;&quot;&gt;mode = 1 or 2 or 3, Wash_timer = 1&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="530" y="440" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-40" value="&lt;span style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center; float: none; display: inline !important;&quot;&gt;Lid =1, coin =1, cancel =0&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center; float: none; display: inline !important;&quot;&gt;mode = 1 or 2 or 3, Rinse_timer = 1&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="235" y="490" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-41" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;else&lt;br&gt;ns = cs&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="120" y="445" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-42" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;else&lt;br&gt;ns = cs&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;" parent="1" vertex="1">
+          <mxGeometry x="430" y="520" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-43" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-1" target="BVnzcmubk8Lxvu2Zo6zp-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="390" />
+              <mxPoint x="90" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-44" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.003;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.28;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-1" target="BVnzcmubk8Lxvu2Zo6zp-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="510" />
+              <mxPoint x="110" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-45" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-5" target="BVnzcmubk8Lxvu2Zo6zp-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="560" />
+              <mxPoint x="430" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-46" value="&lt;span style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center; float: none; display: inline !important;&quot;&gt;Lid =1, coin =1, cancel =0&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-family: Montserrat; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center; float: none; display: inline !important;&quot;&gt;mode = 1 or 2 or 3, Spin_timer = 1&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="17.5" y="340" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-47" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=-0.008;exitY=0.397;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-3" target="BVnzcmubk8Lxvu2Zo6zp-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+            <mxPoint x="290" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="260" />
+              <mxPoint x="180" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-48" value="&lt;p style=&quot;line-height: 80%;&quot;&gt;cancel = 1&lt;br style=&quot;font-size: 10px;&quot;&gt;coin returned&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/p&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=10;spacing=-1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-49" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.921;entryY=0.755;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-4" target="BVnzcmubk8Lxvu2Zo6zp-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="340" />
+              <mxPoint x="240" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-50" value="&lt;p style=&quot;line-height: 80%;&quot;&gt;cancel = 1&lt;br style=&quot;font-size: 10px;&quot;&gt;coin not returned&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/p&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=10;spacing=-1;" parent="1" vertex="1">
+          <mxGeometry x="248" y="303" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-51" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-6" target="BVnzcmubk8Lxvu2Zo6zp-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="370" as="sourcePoint" />
+            <mxPoint x="290" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="370" />
+              <mxPoint x="220" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-52" value="&lt;p style=&quot;line-height: 80%;&quot;&gt;cancel = 1&lt;br style=&quot;font-size: 10px;&quot;&gt;coin not returned&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/p&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=10;spacing=-1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="343" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-53" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.747;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BVnzcmubk8Lxvu2Zo6zp-5" target="BVnzcmubk8Lxvu2Zo6zp-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="370" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="400" />
+              <mxPoint x="210" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVnzcmubk8Lxvu2Zo6zp-55" value="&lt;p style=&quot;line-height: 80%;&quot;&gt;cancel = 1&lt;br style=&quot;font-size: 10px;&quot;&gt;coin not returned&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/p&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;fontFamily=Montserrat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DMontserrat;fontSize=10;spacing=-1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="405" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
