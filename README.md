@@ -38,11 +38,10 @@ To simulate the Verilog code, you can use a Verilog simulator such as . Follow t
 | Cancel |input| Cancels the washing process |
 | mode |input| Select Washing modes |
 | idle_op |output| Do not perform any process |
-ready_op output 1 Machine is ready to start
-the process
-soak_op output 1 Soaking operation
-wash_op output 1 Washing operation
-rinse_op output 1 Rinsing operation
-spin_op output 1 Spinning operation
-coin_rtrn output 1 Return the coin
-water_inlet output 1 Water intake
+| ready_op |output| Machine is ready to start the process
+| soak_op |output| Soaking operation |
+| wash_op |output| Washing operation |
+| rinse_op |output| Rinsing operation |
+| spin_op |output| Spinning operation |
+| coin_rtrn |output| Return the coin |
+| water_inlet |output| Water intake |
