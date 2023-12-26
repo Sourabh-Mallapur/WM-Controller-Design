@@ -50,7 +50,7 @@ Commands to run Simulation using Gtkwave (on Windows)
 ```
 
 ## State Diagram 
-![alt text](https://github]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/misc/FSM.drawio.png)
 
 
 ## Interpretting Code
