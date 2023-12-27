@@ -320,11 +320,11 @@ module washing_machine_ctrl(clk, lid, coin, cancel, mode, idle_op,
 endmodule
 
 ```
-Generic Synthesis - Synthesizes the design to the G Tech cells (default cells for the Cadence Tool)
+### Generic Synthesis - Synthesizes the design to the G Tech cells (default cells for the Cadence Tool)
 ![generic](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/Syn_generic2.png)
 
-Mapped Synthesis - maps the synthesized cells to the library specified earlier in read_libs command
+### Mapped Synthesis - maps the synthesized cells to the library specified earlier in read_libs command
 ![map](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/syn_map2.png)
 
-Optimised Synthesis - Incrementally optimizes the synthesized design
+### Optimised Synthesis - Incrementally optimizes the synthesized design
 ![optismised](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/Syn_opt.png)
