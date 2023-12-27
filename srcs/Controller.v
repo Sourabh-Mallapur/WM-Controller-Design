@@ -79,49 +79,45 @@ always @ (negedge clk) begin
     endcase
 end
 
-// mode logic 
-always @(r_reg) 
-    if (r_next == READY)
-        case(mode)
-            MODE1:  begin
-                SOAK_TIME = 1;
-                WASH_TIME = 2;
-                RINSE_TIME = 2;
-                SPIN_TIME = 2;
-            end
-            
-            MODE2: begin
-                SOAK_TIME = 2;
-                WASH_TIME = 3;
-                RINSE_TIME = 3;
-                SPIN_TIME = 3;
-            end
-            
-            MODE3: begin
-                SOAK_TIME = 3;
-                WASH_TIME = 5;
-                RINSE_TIME = 5;
-                SPIN_TIME = 5;
-            end
-        endcase
-            
-
-// next-state logic
+// next-state logic + MODE logic
 always @*
 begin
+    r_next <= r_reg;
     if (lid == 1 || cancel == 1)
         r_next  <= IDLE;
+        
     case(r_reg)
-    IDLE:
+    IDLE:   begin
         if(lid == 0 && coin == 1 && cancel == 0)
             r_next <= READY;
+            case(mode)
+                MODE1:  begin
+                    SOAK_TIME = 1;
+                    WASH_TIME = 2;
+                    RINSE_TIME = 2;
+                    SPIN_TIME = 2;
+                  end
+            
+                MODE2: begin
+                    SOAK_TIME = 2;
+                    WASH_TIME = 3;
+                    RINSE_TIME = 3;
+                    SPIN_TIME = 3;
+              end
+            
+                MODE3: begin
+                    SOAK_TIME = 3;
+                    WASH_TIME = 5;
+                    RINSE_TIME = 5;
+                    SPIN_TIME = 5;
+              end
+            endcase
+          end
     
     READY:
-        if(mode == 2'b00 || mode == 2'b01 || mode == 2'b10)
+        if (mode == 2'b00 || mode == 2'b01 || mode == 2'b10)
             if (lid == 0 && cancel == 0)
                 r_next <= SOAK;
-         else
-             r_next <= READY;
 
     SOAK:   begin
         if (soak_Counter == SOAK_TIME)
@@ -129,28 +125,22 @@ begin
         if (lid == 0 && cancel == 0)
             if(soak_done)
                 r_next <= WASH;
-        else
-            r_next <= SOAK;
       end
          
     WASH:   begin
         if (wash_Counter == WASH_TIME)
             wash_done <= 1;
-        if(lid == 0 && cancel == 0)
+        if (lid == 0 && cancel == 0)
             if(wash_done)
                 r_next <= RINSE;
-        else
-            r_next <= WASH;
       end
             
     RINSE:  begin
-        if (rinse_Counter >= RINSE_TIME)
+        if (rinse_Counter == RINSE_TIME)
             rinse_done <= 1;
         if (lid == 0 && cancel == 0)
             if(rinse_done)
                 r_next <= SPIN;
-        else
-            r_next <= RINSE;
       end
       
     SPIN:   begin
@@ -158,9 +148,7 @@ begin
             spin_done <= 1;   
         if (lid == 0 && cancel == 0)
             if(spin_done)
-                r_next <= IDLE;
-        else
-            r_next <= SPIN;
+                r_next <= IDLE;       
       end
             
     default: r_next <= IDLE;
