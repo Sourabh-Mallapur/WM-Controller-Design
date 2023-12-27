@@ -53,7 +53,7 @@ Commands to run Simulation using Gtkwave (on Windows)
 ```
 
 ## State Diagram 
-![alt text](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/misc/FSM.drawio.png)
+![FSM](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/misc/FSM.drawio.png)
 
 
 ## Interpretting Code
@@ -320,7 +320,11 @@ module washing_machine_ctrl(clk, lid, coin, cancel, mode, idle_op,
 endmodule
 
 ```
+Generic Synthesis - Synthesizes the design to the G Tech cells (default cells for the Cadence Tool)
+![generic](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/Syn_generic2.png)
 
-![alt text](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/syn_generic2.png)
-![alt text](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/syn_map2.png)
-![alt text](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/syn_opt.png)
+Mapped Synthesis - maps the synthesized cells to the library specified earlier in read_libs command
+![map](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/syn_map2.png)
+
+Optimised Synthesis - Incrementally optimizes the synthesized design
+![optismised](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/Syn_opt.png)
