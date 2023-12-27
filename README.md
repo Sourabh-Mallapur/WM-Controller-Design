@@ -12,6 +12,8 @@ This repository contains the Verilog implementation of a Washing Machine Control
 - [Simulation](#simulation)
 - [State Diagram](#state-diagram)
 - [Interpretting Code](#interpretting-code)
+- [Synthesis using Cadence EDA Suite](#synthesis-using-cadence-eda-suite)
+- [Results/Reports from Synthesis](#resultsreports-from-synthesis)
 
 ## Introduction
 
@@ -128,6 +130,8 @@ set_output_delay -clock [get_clocks $EXTCLK] -add_delay 0.3 [get_ports wash_done
 set_output_delay -clock [get_clocks $EXTCLK] -add_delay 0.3 [get_ports rinse_done]
 set_output_delay -clock [get_clocks $EXTCLK] -add_delay 0.3 [get_ports spin_done]
 ```
+
+### Steps to do Synthesis
 
 ```
 genus -gui
