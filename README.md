@@ -328,3 +328,7 @@ endmodule
 
 ### Optimised Synthesis - Incrementally optimizes the synthesized design
 ![optismised](https://github.com/Sourabh-Mallapur/WM-Controller-Design/blob/main/syn/Syn_opt.png)
+
+
+## Contributors
+- [Soumyadipto](https://github.com/SomShubho)
