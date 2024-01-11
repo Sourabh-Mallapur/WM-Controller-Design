@@ -27,7 +27,7 @@ The Washing Machine Controller module is implemented in Verilog and uses a finit
 
 ## Verilog Files
 
-- `Controller.v`: Main Verilog file containing the Washing Machine Controller module.
+- `Controller.v` : Main Verilog file containing the Washing Machine Controller module.
 - `testbench.v` : Testbench file.
 
 ## Simulation
