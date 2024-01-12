@@ -48,7 +48,7 @@ reg [2:0] wash_Counter, rinse_Counter, spin_Counter, soak_Counter;
        Spin  : 5 mins   */
     
 // signal declaration
-reg [2:0] r_reg = 0, r_next;
+reg [2:0] r_reg, r_next;
     
 always @(posedge clk)
     begin
